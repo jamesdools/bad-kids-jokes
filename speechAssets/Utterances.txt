@@ -1,0 +1,4 @@
+TellAJokeIntent say a joke
+TellAJokeIntent tell me a joke
+TellAJokeIntent give me a joke
+TellAJokeIntent give me a bad kids joke

@@ -1,0 +1,19 @@
+{
+  "name": "bad-kids-jokes-alexa-skill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "scrape": "NODE_ENV=dev node scraper.js",
+    "test": "mocha",
+    "zip": "rm bkj.zip && zip -r bkj.zip . -x config/dev.json -x scraper.js"
+  },
+  "author": "James Dooley",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.11",
+    "config": "^1.26.1",
+    "twit": "^2.2.9"
+  }
+}
